@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-label="МАТРЁШКА логотип — красный клубок ниток с иглой">
+  <defs>
+    <radialGradient id="ball" cx="38%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#ff4d5e"/>
+      <stop offset="55%" stop-color="#d81b35"/>
+      <stop offset="100%" stop-color="#9e0e22"/>
+    </radialGradient>
+  </defs>
+
+  <!-- yarn ball -->
+  <circle cx="46" cy="56" r="34" fill="url(#ball)"/>
+
+  <!-- wound thread lines -->
+  <g stroke="#7d0b1a" stroke-width="2" fill="none" opacity="0.55" stroke-linecap="round">
+    <path d="M20 44 C 34 36, 60 38, 76 52"/>
+    <path d="M16 56 C 32 50, 60 54, 78 64"/>
+    <path d="M19 68 C 34 64, 58 70, 74 76"/>
+    <path d="M30 28 C 40 44, 44 64, 40 88"/>
+    <path d="M52 26 C 56 44, 58 66, 54 86"/>
+    <path d="M66 34 C 64 50, 66 68, 62 82"/>
+  </g>
+  <g stroke="#ffd0d6" stroke-width="1.4" fill="none" opacity="0.5" stroke-linecap="round">
+    <path d="M24 40 C 38 33, 60 35, 73 48"/>
+    <path d="M44 27 C 50 46, 52 66, 48 87"/>
+  </g>
+
+  <!-- loose thread to needle -->
+  <path d="M76 52 C 90 50, 88 30, 78 22" stroke="#d81b35" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+
+  <!-- needle -->
+  <g transform="rotate(35 78 20)">
+    <rect x="74.5" y="4" width="7" height="34" rx="3.5" fill="#1a1a1a"/>
+    <rect x="76" y="6" width="1.6" height="26" rx="0.8" fill="#555"/>
+    <ellipse cx="78" cy="9" rx="2" ry="3.4" fill="none" stroke="#fff" stroke-width="1.3"/>
+  </g>
+</svg>
